@@ -23,5 +23,5 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
       with:
-        name: jar
-        path: target/*.jar
+        name: msalclientcertdemo-jar
+        path: target/MsalClientCertDemo-*.jar
