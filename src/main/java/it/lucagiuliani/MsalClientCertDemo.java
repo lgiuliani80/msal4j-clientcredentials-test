@@ -5,11 +5,7 @@ import org.apache.commons.cli.*;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.security.KeyStore;
-import java.security.PrivateKey;
-import java.security.cert.X509Certificate;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
@@ -69,10 +65,5 @@ public class MsalClientCertDemo {
             System.err.println("Parse Error: " + e.getMessage());
             formatter.printHelp("MsalClientCertDemo", options);
         }
-
-        // Replace with your values
-        String clientId = "<YOUR_CLIENT_ID>";
-        String tenantId = "<YOUR_TENANT_ID>";
-
     }
 }
