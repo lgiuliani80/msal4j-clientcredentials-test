@@ -36,7 +36,7 @@ java -jar target/MsalClientCertDemo-1.0-SNAPSHOT-shaded.jar -c <clientId> -t <te
 ## Example
 
 ```bash
-java -jar target/MsalClientCertDemo-1.0-SNAPSHOT-shaded.jar -c "your-client-id" -t "your-tenant-id" -f "path/to/your/certificate.pfx" -p "your-pfx-password" -s "https://graph.microsoft.com/.default"
+java -jar target/MsalClientCertDemo-1.0-SNAPSHOT.jar -c "your-client-id" -t "your-tenant-id" -f "path/to/your/certificate.pfx" -p "your-pfx-password" -s "https://graph.microsoft.com/.default"
 ```
 
 This command authenticates the application using the specified certificate and retrieves an access token for the provided scope.
